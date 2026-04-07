@@ -3,11 +3,11 @@ const currentYear = new Date().getFullYear();
 ---
 
 <footer>
-  <p>&copy; 2024-{currentYear} Your name here</p>
+  <p>&copy; 2025-{currentYear} Wooyoung Jung</p>
   <nav>
     <ul>
-      <li><a href="/about">GitHub</a></li>
-      <li><a href="/blog">Astro</a></li>
+      <li><a href={`${import.meta.env.BASE_URL}about`}>GitHub</a></li>
+      <li><a href={`${import.meta.env.BASE_URL}blog`}>Astro</a></li>
       {/* Add other navbar entries here */}
     </ul>
   </nav>

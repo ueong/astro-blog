@@ -1,6 +1,5 @@
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: "https://ueong.github.io",
-  base: "/astro-blog/",
+  site: "https://ueong.net",
 });

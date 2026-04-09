@@ -14,8 +14,8 @@ type Config = {
 };
 
 export const siteConfig: Config = {
-  title: "smallworld",
-  description: "A minimal Astro template styled with Pico CSS",
+  title: "우엉의 블로그",
+  description: "우엉이 알게 된 내용에 대해 적는 공간",
   lang: "en",
   favicon: "/favicon.svg",
   og: {

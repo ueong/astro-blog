@@ -25,3 +25,7 @@ pnpm-debug.log*
 # Visual Studio Code local folders
 .vscode/*
 !.vscode/extensions.json
+
+# Claude
+.claude/
+CLAUDE.md
